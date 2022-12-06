@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "clairclient",
+  "version": "${version}",
+
+  "name": "Clair Cleint",
+  "description": "A client mod to make changes and improvements to the base client.",
+  "authors": [
+    "Unknown-User2"
+  ],
+  "contact": {
+    "sources": "https://github.com/Unknown-User2/clairCleint"
+  },
+
+  "license": "Unlicense",
+  "icon": "assets/clairclient/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "unknownuser2.clairclient.ClairClient"
+    ]
+  },
+  "mixins": [
+    "clairclient.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

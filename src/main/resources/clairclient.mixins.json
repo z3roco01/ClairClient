@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "unknownuser2.clairclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "client": [
+    "PlayerListHudMixin",
+    "ClientPlayerEntityMixin",
+    "LightmapTextureManagerMixin",
+    "WorldRendererMixin",
+    "EntityRendererMixin",
+    "ClientConnectionMixin",
+    "GameMenuScreenMixin",
+    "EntityMixin",
+    "BlockMixin",
+    "MinecraftClientMixin",
+    "RenderLayersMixin",
+    "AbstractBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

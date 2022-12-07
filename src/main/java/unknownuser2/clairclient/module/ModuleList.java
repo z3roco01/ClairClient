@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import unknownuser2.clairclient.module.modules.*;
 
 public class ModuleList {
-    private final ArrayList<Module> modules = new ArrayList<>();
+    private final ArrayList<Module> modules = new ArrayList<Module>();
 
     public ModuleList() {
         addModule(new ImprovedTab());
@@ -17,6 +17,7 @@ public class ModuleList {
         addModule(new Speed());
         addModule(new Xray());
         addModule(new RobotMovement());
+        addModule(new NoFog());
     }
 
     public ArrayList<Module> getModules() {

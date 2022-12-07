@@ -18,7 +18,8 @@
     "BlockMixin",
     "MinecraftClientMixin",
     "RenderLayersMixin",
-    "AbstractBlockMixin"
+    "AbstractBlockMixin",
+    "BackgroundRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
